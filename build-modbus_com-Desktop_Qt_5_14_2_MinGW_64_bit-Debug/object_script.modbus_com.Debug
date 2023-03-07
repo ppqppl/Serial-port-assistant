@@ -1,0 +1,14 @@
+debug/com_window.o
+debug/linkmysql.o
+debug/main.o
+debug/mainwindow.o
+debug/modbus_window.o
+debug/mythread.o
+debug/tcp_window.o
+debug/qrc_Img.o
+debug/moc_com_window.o
+debug/moc_linkmysql.o
+debug/moc_mainwindow.o
+debug/moc_modbus_window.o
+debug/moc_mythread.o
+debug/moc_tcp_window.o

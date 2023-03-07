@@ -1,0 +1,16 @@
+release/com_window.o
+release/linkmysql.o
+release/main.o
+release/mainwindow.o
+release/modbus_window.o
+release/mythread.o
+release/tcp_window.o
+release/udp_window.o
+release/qrc_Img.o
+release/moc_com_window.o
+release/moc_linkmysql.o
+release/moc_mainwindow.o
+release/moc_modbus_window.o
+release/moc_mythread.o
+release/moc_tcp_window.o
+release/moc_udp_window.o

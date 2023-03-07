@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/Img">
+        <file>logo.png</file>
+        <file>images/books.png</file>
+        <file>images/close.png</file>
+        <file>images/connect.png</file>
+        <file>images/disconnect.png</file>
+        <file>images/exit.png</file>
+        <file>images/open.png</file>
+        <file>images/refresh.png</file>
+        <file>images/save.png</file>
+        <file>images/send.png</file>
+        <file>images/settings.png</file>
+        <file>images/Write.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Resources.qrc</file>
+    </qresource>
+</RCC>

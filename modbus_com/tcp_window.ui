@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TCP_Window</class>
+ <widget class="QMainWindow" name="TCP_Window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>772</width>
+    <height>661</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="BackBtn">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>570</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:'仿宋';
+font-size:20px;
+color: #2f3640;
+background-color: #eea2a4;
+border-color: #eea2a4;
+border-radius: 20px;
+border-style: solid;
+border-width: 2px;
+padding: 5px;</string>
+    </property>
+    <property name="text">
+     <string>返回</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="MyText">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>771</width>
+      <height>351</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:'仿宋';
+font-size:20px;</string>
+    </property>
+    <property name="text">
+     <string>TCP Modbus 协议获取服务器数据</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>761</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">font-family:'仿宋';
+font-size:20px;</string>
+       </property>
+       <property name="text">
+        <string>IP：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="IPText">
+       <property name="styleSheet">
+        <string notr="true">font-family:'仿宋';
+font-size:20px;</string>
+       </property>
+       <property name="text">
+        <string>123.56.90.74</string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">font-family:'仿宋';
+font-size:20px;</string>
+       </property>
+       <property name="text">
+        <string>PORT：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="PortText">
+       <property name="styleSheet">
+        <string notr="true">font-family:'仿宋';
+font-size:20px;</string>
+       </property>
+       <property name="text">
+        <string>8002</string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="GetBtn">
+       <property name="minimumSize">
+        <size>
+         <width>121</width>
+         <height>41</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family:'仿宋';
+font-size:20px;
+color: #2f3640;
+background-color: #eea2a4;
+border-color: #eea2a4;
+border-radius: 20px;
+border-style: solid;
+border-width: 2px;
+padding: 5px;</string>
+       </property>
+       <property name="text">
+        <string>获取数据</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>480</y>
+      <width>771</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family:'仿宋';
+font-size:20px;</string>
+       </property>
+       <property name="text">
+        <string>获取数据时间间隔： </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="SleepspinBox">
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family:'仿宋';
+font-size:20px;</string>
+       </property>
+       <property name="minimum">
+        <number>2</number>
+       </property>
+       <property name="maximum">
+        <number>300</number>
+       </property>
+       <property name="singleStep">
+        <number>3</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">font-family:'仿宋';
+font-size:20px;</string>
+       </property>
+       <property name="text">
+        <string>是否保存到数据库： </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="SqlcheckBox">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 0px solid gray;   /* 边框 */
+border-radius: 4px;   /* 圆角 */
+padding: 1px 18px 1px 3px;   /* 字体填衬 */
+color: #000;
+font: normal normal 20px &quot;仿宋&quot;;
+background: transparent;</string>
+       </property>
+       <property name="text">
+        <string>保存到数据库</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>772</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
